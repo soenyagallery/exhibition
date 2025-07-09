@@ -37,14 +37,14 @@ html {
 
 @font-face {
     font-family: 'FirstNue';
-    src: url('/fonts/FirstNue.ttf') format('truetype');
+    src: url('/src/assets/fonts/FirstNue.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PalaceScript';
-    src: url('/fonts/PalaceScript.woff') format('woff');
+    src: url('/src/assets/fonts/PalaceScript.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
