@@ -7,20 +7,20 @@ import ExpandableProfile from '@/components/ExpandableProfile.vue'
 const profile1 = {
   firstName: 'MIHAIL',
   lastName: 'CALARAȘAN',
-  textTop: 'Mihail Calarașan – documentary photographer, based in Chisinau, Moldova. Was born in Transnistria in 1993. Since the fall of 2017, he hasbeen working on a permanent basis with the Moldovan magazine “Oameni și Kilometri” as a photographer and journalist. Also, starting the same year, he has been working on long-term documentary projects about the Ukrainian Carpathians, Transnistria and Gagauzia.',
+  textTop: 'Mihail Calarașan – documentary photographer, based in Chisinau, Moldova. Was born in Transnistria in 1993. Since the fall of 2017, he has been working on a permanent basis with the Moldovan magazine “Oameni și Kilometri” as a photographer and journalist. Also, starting the same year, he has been working on long-term documentary projects about the Ukrainian Carpathians, Transnistria and Gagauzia.',
   images: [
-    'scr/assets/images/misha/photo_1.jpg',
-    'scr/assets/images/misha/photo_2.jpg',
-    'scr/assets/images/misha/photo_3.jpg',
-    'scr/assets/images/misha/photo_4.jpg',
-    'scr/assets/images/misha/photo_5.jpg',
-    'scr/assets/images/misha/photo_6.jpg',
-    'scr/assets/images/misha/photo_7.jpg',
-    'scr/assets/images/misha/photo_8.jpg',
-    'scr/assets/images/misha/photo_9.jpg',
-    'scr/assets/images/misha/photo_10.jpg',
-    'scr/assets/images/misha/photo_11.jpg',
-    'scr/assets/images/misha/photo_12.jpg',
+    '/exhibition/images/misha/photo_1.jpg',
+    '/exhibition/images/misha/photo_2.jpg',
+    '/exhibition/images/misha/photo_3.jpg',
+    '/exhibition/images/misha/photo_4.jpg',
+    '/exhibition/images/misha/photo_5.jpg',
+    '/exhibition/images/misha/photo_6.jpg',
+    '/exhibition/images/misha/photo_7.jpg',
+    '/exhibition/images/misha/photo_8.jpg',
+    '/exhibition/images/misha/photo_9.jpg',
+    '/exhibition/images/misha/photo_10.jpg',
+    '/exhibition/images/misha/photo_11.jpg',
+    '/exhibition/images/misha/photo_12.jpg',
   ],
   textMiddle: 'RADA\n' + 'This story began in 2017, when I first met Inna and her children in the Carpathian Mountains.\n' +
       'They had fled Luhansk because of the war and started a new life among the hills.\n' +
@@ -40,7 +40,7 @@ const profile3 = {
   lastName: 'SUROVOVA',
   textTop: 'In my art I explore how ancient culture is reflected in modern human. I work with ancient myths and fairy tales of the world, to find what connects of our time with our ancient natural beginnings. Part of my method is the use of digital technologies as a tool for interacting with the non-human space. I transform my ideas in painting in which I use methods of classical painting techniques, I seek in classical technology the expression of a new time.',
   images: [
-    'scr/assets/images/polina/photo_1.jpg',
+    '/exhibition/images/polina/photo_1.jpg',
   ],
   textMiddle: 'This painting was painted during pregnancy. It was a time of rebirth from one state to another. The edges are blurred and the movement of the figure is duplicated, showing the movement into a new existence. The blanket of flowers is a metaphor for nature, through this experience I felt that a woman during pregnancy is as close and one with nature as never before.',
   linkText: 'Instagram:',
@@ -56,7 +56,7 @@ const profile4 = {
   lastName: 'FIRSOVA',
   textTop: 'KISI is a multimedia artist originally from Belarus, currently living and working in Amsterdam. She graduated with a degree in mathematics and worked as a programmer for over ten years before changing her professional path and completing her education at the School of Contemporary Art “Free Workshops” in Moscow.\nHer artistic practice explores themes of memory, interaction, and communication within contemporary society. In her work, she aims for a particular tone — a blend of irony and tenderness — which she believes allows for a more precise expression of complex emotions and states of being.',
   images: [
-    'scr/assets/images/olga/photo_1.jpg',
+    '/exhibition/images/olga/photo_1.jpg',
   ],
   textMiddle: 'Lily Field\nThis picturesque work is part of the After Life series and is dedicated to the theme of memory. Its atmosphere is reminiscent of an old, faded photograph. Through images and color schemes, it explores the invisible but deeply felt connection with those who are no longer with us—a connection preserved in memories. The work reflects the fragility and strength of this inner connection, its ability to sustain, transform, and continue life even after loss.',
   linkText: 'Instagram:',
@@ -72,16 +72,16 @@ const profile2 = {
   lastName: 'GLUSHKOVA',
   textTop: 'Dasha Glukhova is a gallery photographer. She shoots stories in a documentary and poetic way. She works mostly on 35 mm film cameras, rarrelly on 120 mm film.\n\nGlukhova graduated from MSU university in art criticism department and advertising fild. She has defended a Phd about Creative technoly of PSA. For 5 years she investigated the difference between the creative process and the artist`s work in the context of the issues of the of the visual language based on different cultural codes.',
   images: [
-    'scr/assets/images/dasha/photo_1.jpg',
-    'scr/assets/images/dasha/photo_2.jpg',
-    'scr/assets/images/dasha/photo_3.jpg',
-    'scr/assets/images/dasha/photo_4.jpg',
-    'scr/assets/images/dasha/photo_5.jpg',
-    'scr/assets/images/dasha/photo_6.jpg',
-    'scr/assets/images/dasha/photo_7.jpg',
-    'scr/assets/images/dasha/photo_8.jpg',
-    'scr/assets/images/dasha/photo_9.jpg',
-    'scr/assets/images/dasha/photo_10.jpg',
+    '/exhibition/images/dasha/photo_1.jpg',
+    '/exhibition/images/dasha/photo_2.jpg',
+    '/exhibition/images/dasha/photo_3.jpg',
+    '/exhibition/images/dasha/photo_4.jpg',
+    '/exhibition/images/dasha/photo_5.jpg',
+    '/exhibition/images/dasha/photo_6.jpg',
+    '/exhibition/images/dasha/photo_7.jpg',
+    '/exhibition/images/dasha/photo_8.jpg',
+    '/exhibition/images/dasha/photo_9.jpg',
+    '/exhibition/images/dasha/photo_10.jpg',
   ],
   textMiddle: '',
   linkText: 'Instagram:',
@@ -99,10 +99,10 @@ const profile5 = {
   'A graduate of the Faculty of Journalism at Moscow State University, she studied neurographics at BBE and works with 2D image and video generation using AI tools. Her artistic practice explores themes of socialization and nostalgia.\n' +
   'She has participated in exhibitions and festivals such as Zaryadye Park and NUR, and has been a multiple-time winner of the Prostor open call.',
   images: [
-    'scr/assets/images/valeria/photo_1.PNG',
-    'scr/assets/images/valeria/photo_2.PNG',
-    'scr/assets/images/valeria/photo_3.PNG',
-    'scr/assets/images/valeria/photo_4.PNG',
+    '/exhibition/images/valeria/photo_1.PNG',
+    '/exhibition/images/valeria/photo_2.PNG',
+    '/exhibition/images/valeria/photo_3.PNG',
+    '/exhibition/images/valeria/photo_4.PNG',
   ],
   textMiddle: 'Psyche 3.0: How High the Grass Grows is a piece of neurogenerative art that wanders through the fragile terrain of memory in the digital age.\nWhy do scandals vanish like smoke, memes flicker for a single day, and yet we whisper, "the internet remembers everything"?\nIs there a pixelated heaven where lost accounts rest?\nAnd what might we uncover if we step softly into the tall grass of forgotten data—among glimmers, ghosts, and digital echoes?',
   linkText: 'Instagram:',
@@ -119,7 +119,7 @@ const profile5 = {
   <div class="page">
     <div class="content">
       <div class="block image-block">
-        <img src="/src/assets/images/header.png" alt="sonja" class="image-block_img" />
+        <img src="/images/header.png" alt="sonja" class="image-block_img" />
       </div>
       <div class="block text-block">
         <div class="text-block_text">

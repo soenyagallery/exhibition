@@ -35,7 +35,6 @@
           <div class="text-top">{{ data.textTop }}</div>
         </div>
 
-        <!-- Slider with directional animation -->
         <div class="slider" @wheel.prevent="onWheel">
           <div class="svg-arrow left" @click.stop="handlePrev" v-if="data.images.length > 1">
             <svg width="24" height="24" viewBox="0 0 100 100">
@@ -48,6 +47,7 @@
               ref="windowEl"
               @touchstart="onTouchStart"
               @touchend="onTouchEnd"
+              @touchmove.prevent
           >
             <transition :name="slideTransition">
               <img
@@ -159,10 +159,19 @@ watch(isOpen, async opened => {
 
 const randomMargin = ref(0)
 
+function preloadImages(imageUrls) {
+  imageUrls.forEach(src => {
+    const img = new Image()
+    img.src = src
+  })
+}
+
 onMounted(() => {
   const step = 7
   const max = 22
   randomMargin.value = Math.floor(Math.random() * ((max / step) + 1)) * step
+
+  preloadImages(data.images)
 })
 
 const touchStartX = ref(0)
@@ -268,7 +277,6 @@ function handleSwipe() {
   color: inherit;
 }
 
-/* Expand/collapse animation */
 .expand-enter-active,
 .expand-leave-active {
   transition: max-height 0.3s ease;
@@ -285,7 +293,6 @@ function handleSwipe() {
   max-height: 1000px;
 }
 
-/* Slider container */
 .slider {
   position: relative;
   display: flex;
@@ -303,7 +310,6 @@ function handleSwipe() {
   overflow: hidden;
 }
 
-/* Slide animations */
 .slide-next-enter-active,
 .slide-next-leave-active,
 .slide-prev-enter-active,
