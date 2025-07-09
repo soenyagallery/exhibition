@@ -119,7 +119,7 @@ const profile5 = {
   <div class="page">
     <div class="content">
       <div class="block image-block">
-        <img src="/src/assetsscr/assets/images/header.png" alt="sonja" class="image-block_img" />
+        <img src="/src/assets/images/header.png" alt="sonja" class="image-block_img" />
       </div>
       <div class="block text-block">
         <div class="text-block_text">
